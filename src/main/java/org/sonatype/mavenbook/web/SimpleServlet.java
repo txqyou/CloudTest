@@ -9,6 +9,7 @@ public class SimpleServlet extends HttpServlet{
                 PrintWriter out = response.getWriter();
                 out.println("SimpleServlet Executed");
 		out.println("test again ");
+		out.println("ganjueyouwenti");
                 out.flush();
                 out.close();
         }
