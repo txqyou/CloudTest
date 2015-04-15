@@ -1,7 +1,5 @@
 language: java
-jdk: -oraclejdk7
-branchs:
-    only: -master
+switcher use -oraclejdk7
 script: mvn clean install 
 notifications: 
     email:txqyou@gmail.com
